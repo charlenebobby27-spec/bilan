@@ -1,4 +1,5 @@
 const LIEN_PAIEMENT = "https://buy.stripe.com/bJe6oH13j52H2q4aAMbjW01";
+const EMAIL = "babou0042@gmail.com";
 
 const questions = [
   {
@@ -49,7 +50,7 @@ export default function Page() {
       <div className="mt-5 rounded-md border-2 border-encre p-4">
         <p className="font-semibold">Satisfait ou remboursé, 14 jours.</p>
         <p className="mt-1 text-sm">
-          Écrivez-nous par email dans les 14 jours suivant votre paiement : vous
+          Écrivez à {EMAIL} dans les 14 jours suivant votre paiement : vous
           êtes remboursé intégralement sous 5 jours ouvrés, sans question.
         </p>
       </div>
