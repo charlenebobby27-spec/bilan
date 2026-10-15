@@ -1,4 +1,4 @@
-const LIEN_PAIEMENT = "https://buy.stripe.com/test_cNi28r27n3YD6Gk4cobjW00";
+const LIEN_PAIEMENT = "https://buy.stripe.com/bJe6oH13j52H2q4aAMbjW01";
 
 const questions = [
   {
